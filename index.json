@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "name": "Nova Plugins",
+  "description": "Jacque's Revenge plugins: Usage Tracker, Notification List, DeepSeek Balance.",
+  "plugins": {
+    "com.ghostixs.notification-list": {
+      "name": "Notification List",
+      "description": "See every channel with unread messages and tap to jump straight to it.",
+      "author": "Ghostixs <217421149536124938>",
+      "channels": {
+        "latest": "1.0.1"
+      },
+      "versions": {
+        "1.0.1": {
+          "url": "https://raw.githubusercontent.com/ghostixs/nova-plugins/main/com.ghostixs.notification-list@1.0.1.zip",
+          "sha256": "8c99f32a2a897621ba8a0ba76d3eb7b3712d8b8dd1a168a55656e145c95cc77c",
+          "size": 1590,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "com.ghostixs.usage-tracker": {
+      "name": "Usage Tracker",
+      "description": "DeepSeek $ and Codex % usage, pinned at the top of your channel list.",
+      "author": "Ghostixs <217421149536124938>",
+      "channels": {
+        "latest": "0.1.1"
+      },
+      "versions": {
+        "0.1.1": {
+          "url": "https://raw.githubusercontent.com/ghostixs/nova-plugins/main/com.ghostixs.usage-tracker@0.1.1.zip",
+          "sha256": "907ba8c5d41279512c12292197af782fc957ef4d2b51d6a8dde8a1575f0ea4b5",
+          "size": 2564,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.2.1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "dev.jacque.deepseek-balance": {
+      "name": "DeepSeek Balance",
+      "description": "Shows your DeepSeek API credit balance right in Discord settings.",
+      "author": "Jacque",
+      "channels": {
+        "latest": "0.1.0"
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://raw.githubusercontent.com/ghostixs/nova-plugins/main/dev.jacque.deepseek-balance@0.1.0.zip",
+          "sha256": "c0b39750ebc24f14252df9bb519647478cde402b05e612eca56229794d38e151",
+          "size": 1385,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
